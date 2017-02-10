@@ -1,0 +1,36 @@
+@media screen and (max-width: 650px) {
+	.name h1 {
+		font-size: 3em;
+	}
+	.name h4 {
+		font-size: 1em;
+	}
+	.nav-btn {
+		display: none;
+	}
+	.portrait {
+		width: 200px;
+		border: 7px solid #e6e6e6;
+	}
+	.facebook, .github, .linkedin {
+		width: 40px;
+		margin: 0 10px 0 10px;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	.name h1 {
+		font-size: 2em;
+	}
+	.name h4 {
+		font-size: .75em;
+	}
+	.portrait {
+		width: 150px;
+		border: 4px solid #e6e6e6;
+	}
+	.facebook, .github, .linkedin {
+		width: 25px;
+	}
+}
+

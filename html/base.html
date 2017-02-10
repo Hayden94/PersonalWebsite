@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">	
+
+	<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
+
+	<link type="text/css" rel="stylesheet" href="/css/base.css">
+
+	<link type="text/css" rel="stylesheet" href="/css/base.responsive.css">
+
+	<title>My Portfolio</title>
+</head>
+
+<body>
+
+	<section class="nav-bar text-center">
+		<a href="/" class="nav-btn"> Home </a>			
+		<a href="/about" class="nav-btn"> About </a>
+		<a href="#" class="nav-btn"> Blog </a>
+		<a href="/portfolio" class="nav-btn selected"> Portfolio </a>
+		<a href="#" class="nav-btn"> Contact </a>	
+	</section>
+
+	<div class="container">
+		{% block content %}
+		{% endblock %}
+	</div>
+
+	<script type="text/javascript" src="js/bootstrap.min.css"></script>
+
+</body>
+
+</html>
